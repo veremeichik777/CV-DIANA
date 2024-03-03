@@ -97,12 +97,8 @@ a:hover {
     transform: translateY(-10px);
 }
 
-.header__burger-btn span:nth-child(2) {
-   
-}
-
 .header__burger-btn span:nth-child(3) {
-  
+
     transform: translateY(10px);
 }
 
@@ -187,8 +183,11 @@ html {
     width: 45%;
 }
 
-.square {list-style-type:square;}
-.none {list-style-type:none;}
+.sectiom-education {
+    list-style-type: none; /* Убираем маркеры */
+    padding-left: 0; /* Сдвигаем список влево */
+}
+
 @media (max-width: 1265px) {
     
     
@@ -254,7 +253,8 @@ html {
 } */
 
 .foto {
-    width: 70%;
+    width: 350px;
+    height: 400px;
     box-shadow: inset 0px 0 30px rgb(103 87 85);
 }
 
